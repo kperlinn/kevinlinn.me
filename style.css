@@ -1,0 +1,618 @@
+.homepage {
+  text-align: center;
+}
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  background-color: white;
+}
+a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+a:hover {
+  color: red;
+}
+span {
+  background-color: #cccccc;
+}
+span:hover {
+  color: black;
+}
+.onpage {
+  background-color: #cccccc;
+}
+.onpage:hover {
+  color: black;
+}
+.myname {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  float: left;
+  margin: -7px 0 0 100px;
+}
+.menubar {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 100px 0 0;
+  float: right;
+}
+.middlebody {
+  margin: 100px 100px 0 100px;
+  text-align: center;
+}
+.kevinphoto {
+  height: 400px;
+  width: 100%;
+  margin-bottom: -100px;
+}
+.iconphoto {
+  height: 350px;
+  width: 100%;
+  margin-bottom: -180px;
+}
+.myface {
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+.myicon {
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+.aboutbody {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  margin: 20px 150px 20px 150px;
+  text-align: center;
+}
+.aboutbodyex {
+  margin: 20px 100px 20px 100px;
+}
+.jobtitledate {
+  margin-top: 30px;
+}
+h2 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+}
+#titleanddate {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 22px;
+  text-align: left;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+}
+ul {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  text-align: left;
+}
+footer {
+  margin-top: 100px;
+}
+.footend {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+}
+/*start modal CSS https://www.w3schools.com/howto/howto_css_modal_images.asp*/
+/* start image 1*/
+#art1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#art1:hover {
+  opacity: 0.7;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content, #caption { 
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* end image 1*/
+/* start image 2*/
+#art2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#art2:hover {
+  opacity: 0.7;
+}
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content2 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption2 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content2, #caption2 { 
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close2:hover,
+.close2:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* end image 2*/
+/* start image 3*/
+#art3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#art3:hover {
+  opacity: 0.7;
+}
+.modal3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption3 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content3, #caption3 { 
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close3:hover,
+.close3:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* end image 3*/
+/* start image 4*/
+#art4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#art4:hover {
+  opacity: 0.7;
+}
+.modal4 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content4 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption4 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content4, #caption4 { 
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close4 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close4:hover,
+.close4:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* end image 4*/
+/* start image 5*/
+#art5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#art5:hover {
+  opacity: 0.7;
+}
+.modal5 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content5 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption5 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content5, #caption5 { 
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close5 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close5:hover,
+.close5:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* end image 5*/
+/* start image 6*/
+#art6 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#art6:hover {
+  opacity: 0.7;
+}
+.modal6 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+.modal-content6 {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption6 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content6, #caption6 { 
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close6 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close6:hover,
+.close6:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+  /* end image 6*/
+  /*end modal CSS https://www.w3schools.com/howto/howto_css_modal_images.asp*/
+@media (max-width: 860px) {
+  a {
+  	padding: 0 5px 0 5px;
+  }
+  .myname {
+  	display: none;
+    /* 
+    home.css had margin set to
+    margin: 0 0 0 0;
+    */
+  }
+  .aboutbody {
+  	margin: 20px 20px 20px 20px;
+  }
+   .menubar {
+   	font-size: 18px;
+	margin: 0 0 0 0;
+	float: none;
+  }
+  .middlebody {
+    margin: 100px 0 0 0;
+  }
+  .kevinphoto {
+    height: 300px;
+  }
+  .iconphoto {
+    height: 300px;
+  }
+  .myface {
+    height: 200px;
+    width: 200px;
+  }
+  .myicon {
+    height: 100px;
+    width: 100px;
+  }
+  h1 {
+  	font-size: 20px;
+  }
+  h2 {
+  	font-size: 15px;
+  }
+  #titleanddate {
+    font-size: 15px;
+  }
+  ul {
+    font-size: 12px; 
+  }
+  h3 {
+  	font-size: 12px; 
+  }
+  /*Start modal CSS https://www.w3schools.com/howto/howto_css_modal_images.asp*/
+  /* start image 1*/
+  .modal-content {
+    width: 100%;
+  }
+  /* end image 1*/
+  /* start image 2*/
+  .modal-content2 {
+    width: 100%;
+  }
+  /* end image 2*/
+  /* start image 3*/
+  .modal-content3 {
+    width: 100%;
+  }
+  /* end image 3*/
+  /* start image 4*/
+  .modal-content4 {
+    width: 100%;
+  }
+  /* end image 4*/
+  /* start image 5*/
+  .modal-content5 {
+    width: 100%;
+  }
+  /* end image 5*/
+  /* start image 6*/
+  .modal-content6 {
+    width: 100%;
+  }
+  /* end image 6*/
+  /*End modal CSS https://www.w3schools.com/howto/howto_css_modal_images.asp*/
+}
